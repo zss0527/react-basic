@@ -1,14 +1,23 @@
-import MyButton from "./ComponentGrammar";
-import RxjsGrammar from "./RxjsGrammar";
+import MyButton from "./day01/ComponentGrammar";
+import RxjsGrammar from "./day01/RxjsGrammar";
+import MyUseState from "./day01/UseStateGrammar";
 
 
 //项目的根组件
 function App() {
   return (
     <div>
-        <RxjsGrammar />
+      {/**
+       * 
+       * 
+       * <RxjsGrammar />
 
         <div><MyButton/></div>
+       * 
+       */}
+
+       <MyUseState/>
+        
     </div>
       
   );
