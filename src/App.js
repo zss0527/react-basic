@@ -1,3 +1,4 @@
+import MyButton from "./ComponentGrammar";
 import RxjsGrammar from "./RxjsGrammar";
 
 
@@ -6,6 +7,8 @@ function App() {
   return (
     <div>
         <RxjsGrammar />
+
+        <div><MyButton/></div>
     </div>
       
   );
